@@ -7,6 +7,15 @@ header {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-left: 0;
+}
+
 header .logo {
     font-family: Raleway;
     font-size: 18px;
@@ -15,7 +24,6 @@ header .logo {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #2E2F42; 
-    text-decoration: none;
 }
 
 header .logo a:hover {
@@ -32,7 +40,6 @@ header nav {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    text-decoration: none;
     color: #2E2F42;
 }
 
@@ -42,7 +49,6 @@ header .contact-info {
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #434455; 
-    text-decoration: none;
 }
 
 nav {
@@ -51,7 +57,6 @@ nav {
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #2E2F42;
-    text-decoration: none;
 }
 
 nav a:hover {
@@ -68,6 +73,14 @@ header .contact-info a:hover {
 
 header .contact-info a:focus {
     color: #ff6b6b;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.team-section {
+    background-color: #F4F4FD;
 }
 
 footer {
@@ -87,12 +100,6 @@ footer .logo {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color:#F4F4FD;
-    text-decoration: none;
-}
-
-
-ul {
-    list-style-type: none;
 }
 
 .main-section {
@@ -110,12 +117,8 @@ ul {
 
 .main-section button {
     display: inline-flex;
-    padding: 16px 32px;
     align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: white;
     font-size: 16px;
     font-weight: 500;
