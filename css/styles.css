@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
 }
 
 header {
@@ -43,7 +42,7 @@ header nav {
     color: #2E2F42;
 }
 
-header .contact-info {
+header .contact-info a {
     font-family: Roboto;
     font-size: 16px;
     line-height: 24px;
@@ -78,6 +77,12 @@ header .contact-info a:focus {
 .link {
     text-decoration: none;
 }
+
+nav .link {
+    color: #2E2F42; 
+}
+
+
 
 .team-section {
     background-color: #F4F4FD;
@@ -125,6 +130,7 @@ footer .logo {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+    border: none; 
 }
 
 button:hover {
